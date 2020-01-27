@@ -27,7 +27,7 @@ class DetailsActivity : AppCompatActivity() {
         if (intent.hasExtra("Location")) {
             // Do network call
             val location = intent.getIntExtra("Location", 0)
-            if ( location > 0)
+            if (location > 0)
                 viewModel.getWeather(location)
         }
 
