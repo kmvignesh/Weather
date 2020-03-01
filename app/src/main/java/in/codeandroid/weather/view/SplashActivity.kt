@@ -1,6 +1,7 @@
 package `in`.codeandroid.weather.view
 
 import `in`.codeandroid.weather.R
+import `in`.codeandroid.weather.room.WeatherDatabase
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
